@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>AC-130 MVP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="gameContainer">
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="leftPanel">
+      <button id="weaponButton" class="weaponButton selected">40mm</button>
+      <button id="zoomButton" class="weaponButton">Zoom x1</button>
+    </div>
+
+    <div id="rightPanel">
+      <button id="radarButton">Radar</button>
+    </div>
+
+    <div id="topHUD">
+      <div id="weaponName">Weapon : 40mm</div>
+      <div id="ammo">Ammo : ∞</div>
+      <div id="kills">Kills : 0</div>
+      <div id="zoomLevel">Zoom : 1x</div>
+    </div>
+
+    <div id="instructions">Drag to aim. Tap to fire.</div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
